@@ -1,0 +1,132 @@
+.register{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.329);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+margin-left: auto;
+margin-right: auto;
+transform: translateY(100px);
+}
+.log{
+    width: 100%;
+    border-left: 1px solid white;
+}
+.create{
+    width: 100%;
+ 
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+}
+.btn{
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #37bc9b;
+    padding: 10px;
+}
+
+.btn1{
+      border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background:rgb(119, 1, 1);
+    padding: 10px;
+}
+
+.btn1:hover{
+
+  color: white;
+  background:rgb(145, 1, 1) !important;
+
+
+}
+
+nav {
+	margin:0 auto;
+  width:100%;
+  height:auto;
+  display:inline-block;
+  background:#37bc9b;
+}
+
+nav ul {
+	margin:0;padding:0;
+  list-style-type:none;
+  float:left;
+  display:inline-block;
+}
+
+nav ul li {
+	position:relative;
+	margin:0 20px 0 0;
+	float:left;
+  display:inline-block;
+}
+
+li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+
+li > a:only-child:after { content: ''; }
+
+nav ul li a {
+	padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+}
+
+nav ul li ul {
+	display:none;
+  position:absolute;
+  left:0;
+  background:#37bc9b;
+  float:left;
+}
+
+nav ul li ul li {
+	width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+table{
+    width: 90%;
+}
+th{
+    background-color: #017054bb;
+    color: white;
+}
+
+table, tr, th{
+    border: 1px solid gray;
+    text-align: center;
+ 
+}
+td,th{
+    padding: 10px;
+}
+
+fieldset input,fieldset select{
+  width: 90%;
+  margin-bottom: 20px;
+}
+fieldset {
+  width: 70%;
+  padding: 7%;
+  margin: auto;
+}
+fieldset .btn{
+  border-radius: 30px;
+}
